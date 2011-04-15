@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main"
+	android:orientation="vertical"
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+    
+    <TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#454545">
+        <TextView android:id="@+id/TextView01" 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="wrap_content"
+    		android:text="Grocery lists" 
+    		android:layout_weight="1"
+    		android:gravity="center" />
+
+    </TableRow>
+    
+    <ListView android:id="@+id/ListView01" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="50dip"
+    	android:layout_marginTop="50dip">
+    </ListView>
+
+	<RelativeLayout android:layout_marginTop="-50dip" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+        android:background="#454545"
+        android:layout_alignParentBottom="true">
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+			<Button android:id="@+id/plus"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="+" 
+				android:layout_weight="1" />	
+		</TableRow>
+	</RelativeLayout>
+     
+</RelativeLayout>
+
+

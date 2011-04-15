@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:paddingLeft="20px" android:paddingRight="20px"
+	android:paddingTop="40px">
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/AccountUserName"
+		android:hint="@string/UserNameHint">
+	</EditText>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/AccountPassword"
+		android:hint="@string/AccountPasswordHint">
+	</EditText>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/ConfirmAccountPassword"
+		android:hint="@string/AccountConfirmPasswordHint">
+	</EditText>
+	<Button android:text="Submit" android:id="@+id/submit"
+		android:layout_width="wrap_content" android:textSize="20sp"
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="Cancel" android:id="@+id/cancel"
+		android:layout_width="wrap_content" android:textSize="20sp"
+		android:layout_height="wrap_content">
+	</Button>
+</LinearLayout>
+

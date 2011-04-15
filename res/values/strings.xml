@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Login!</string>
+    <string name="app_name">Grocery Genie</string>
+    <string name="LoginButtonLable">Login</string>
+    <string name="CreateAccountButton">Create Account</string>
+    <string name="UserNameHint">Username</string>
+    <string name="AccountPasswordHint">Password</string>
+    <string name="AccountConfirmPasswordHint">Confirm Password</string>
+    <string name="browse">Browse</string>
+    <string name="expandable_list_sample_action">Sample action</string>
+</resources>
