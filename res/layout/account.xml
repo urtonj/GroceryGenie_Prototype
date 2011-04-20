@@ -3,29 +3,50 @@
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent" android:gravity="center"
 	android:paddingLeft="20px" android:paddingRight="20px"
-	android:paddingTop="40px">
-	<EditText android:layout_height="wrap_content"
-		android:layout_width="fill_parent"
-		android:id="@+id/AccountUserName"
-		android:hint="@string/UserNameHint">
-	</EditText>
-	<EditText android:layout_height="wrap_content"
-		android:layout_width="fill_parent" android:id="@+id/AccountPassword"
-		android:hint="@string/AccountPasswordHint">
-	</EditText>
-	<EditText android:layout_height="wrap_content"
-		android:layout_width="fill_parent" android:id="@+id/ConfirmAccountPassword"
-		android:hint="@string/AccountConfirmPasswordHint">
-	</EditText>
-	<Button android:text="Submit" android:id="@+id/submit"
-		android:layout_width="wrap_content" android:textSize="20sp"
-		android:layout_height="wrap_content">
-	</Button>
-	<Button android:text="Cancel" android:id="@+id/cancel"
-		android:layout_width="wrap_content" android:textSize="20sp"
-		android:layout_height="wrap_content">
-	</Button>
-	
-	
+	android:paddingTop="40px" android:background="@drawable/inbox_bg_tile13">
+
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/transparent"
+		android:layout_marginBottom="20dp">
+	</ImageView>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:orientation="vertical"
+		android:gravity="center_horizontal" android:paddingLeft="58dp"
+		android:paddingRight="58dp" android:layout_height="wrap_content"
+		android:isScrollContainer="true">
+		<EditText android:layout_height="55px" android:textSize="12dp"
+			android:layout_width="fill_parent" android:id="@+id/AccountUserName"
+			android:hint="@string/UserNameHint" android:padding="10dp"
+			android:layout_marginBottom="5dp">
+		</EditText>
+
+		<EditText android:layout_height="55px" android:textSize="12dp"
+			android:layout_width="fill_parent" android:id="@+id/AccountPassword"
+			android:hint="@string/AccountPasswordHint" 
+			android:layout_marginBottom="5dp">
+		</EditText>
+
+		<EditText android:layout_height="55px" android:textSize="12dp"
+			android:layout_width="fill_parent" android:id="@+id/ConfirmAccountPassword"
+			android:hint="@string/AccountConfirmPasswordHint" android:padding="10dp"
+			android:layout_marginBottom="25dp">
+		</EditText>
+
+		<Button android:text="Submit" android:id="@+id/submit"
+			android:layout_width="250px" android:layout_height="45px"
+			android:background="@drawable/buttont" android:textColor="#FFFFFF"
+			android:textStyle="bold" android:textSize="16dp"
+			android:layout_marginBottom="5dp">
+		</Button>
+
+		<Button android:text="Cancel" android:id="@+id/cancel"
+			android:layout_width="250px" android:layout_height="45px"
+			android:background="@drawable/buttont" android:textColor="#FFFFFF"
+			android:textStyle="bold" android:textSize="16dp"
+			>
+		</Button>
+
+	</LinearLayout>
 </LinearLayout>
 
